@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = circaprefs;
+		cell = PSLinkCell;
+		detail = "circaprefsListController";
+		icon = "circa_icon.png";
+		isController = 1;
+		label = Circa;
+	};
+}

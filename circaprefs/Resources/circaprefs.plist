@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Circa by Guillermo Morán © 2015</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>CircaHeaderCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.gmoran.circa</string>
+			<key>key</key>
+			<string>circaEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.gmoran.circa.prefs-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.gmoran.circa</string>
+			<key>key</key>
+			<string>circaBorderColor</string>
+			<key>label</key>
+			<string>Icon Border Color</string>
+			<key>PostNotification</key>
+			<string>com.gmoran.circa.prefs-changed</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+			</array>
+			<key>shortTitles</key>
+			<array>
+				<string>White</string>
+				<string>Black</string>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>White</string>
+				<string>Black</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>You must restart SpringBoard for changes to take effect.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>alignment</key>
+			<string>1</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Restart SpringBoard</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>action</key>
+			<string>twitter</string>
+			<key>label</key>
+			<string>Follow @fr0st</string>
+			<key>icon</key>
+			<string>fr0st.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>action</key>
+			<string>mail</string>
+			<key>label</key>
+			<string>Email @fr0st</string>
+			<key>icon</key>
+			<string>mail.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Circa</string>
+</dict>
+</plist>
