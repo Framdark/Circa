@@ -11,7 +11,7 @@ Circa_FILES = Tweak.xm
 SUBPROJECTS = circaprefs
 
 ARCH = x86_64 i386
-#export ARCHS = armv7 arm64
+#export ARCHS = armv7 arm64 arm64e
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 include $(THEOS_MAKE_PATH)/aggregate.mk
